@@ -1,0 +1,248 @@
+[
+    {
+        "type": "tab",
+        "label": "Content",
+        "sections": [
+            {
+                "settings": [
+                    {
+                        "type": "imageManager",
+                        "id": "imageUrl",
+                        "label": "Background",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "text",
+                        "label": "Title",
+                        "id": "title",
+                        "default": "Lorem ipsum"
+                    },
+                    {
+                        "type": "text",
+                        "label": "Sub Title",
+                        "id": "subtitle",
+                        "default": "dolor sit amet"
+                    }
+                ]
+            },
+            {
+                "label": "Swatch",
+                "settings": [
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_0",
+                        "label": "Swatch Image 1",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_0",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_1",
+                        "label": "Swatch Image 2",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_1",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_2",
+                        "label": "Swatch Image 3",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_2",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_3",
+                        "label": "Swatch Image 4",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_3",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_4",
+                        "label": "Swatch Image 5",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_4",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_5",
+                        "label": "Swatch Image 6",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_5",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_6",
+                        "label": "Swatch Image 7",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_6",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_7",
+                        "label": "Swatch Image 8",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_7",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_8",
+                        "label": "Swatch Image 9",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_8",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    },
+                    {
+                        "type": "imageManager",
+                        "id": "swatch_9",
+                        "label": "Swatch Image 10",
+                        "default": {
+                          "src": "https://placehold.it/90x90",
+                          "type": "IMAGE_MANAGER"
+                        }
+                    },
+                    {
+                        "type": "regexInput",
+                        "label": "Product or Collection URL",
+                        "id": "url_9",
+                        "default": "",
+                        "typeMeta": {
+                          "placeholder": "https://",
+                          "regExPatterns": [
+                            {}
+                          ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

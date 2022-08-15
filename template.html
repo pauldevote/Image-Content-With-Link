@@ -1,0 +1,96 @@
+<!-- DO NOT DELETE
+    Access GraphQL query data with {{_.data}}
+    Access the widget id with {{_.id}}
+-->
+<div id="widget-{{_.id}}" class="image-with-content--with-swatch" style="background-image: url({{ imageUrl.src }})">
+    <div class="content--container">
+        <h4 class="page-heading">{{ title }}</h4>
+        <p>{{ subtitle }}</p>
+        <div class="swatches">
+            {{#if swatch_0.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_0.value }}">
+                <img src="{{ swatch_0.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_1.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_1.value }}">
+                <img src="{{ swatch_1.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_2.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_2.value }}">
+                <img src="{{ swatch_2.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_3.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_3.value }}">
+                <img src="{{ swatch_3.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_4.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_4.value }}">
+                <img src="{{ swatch_4.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_5.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_5.value }}">
+                <img src="{{ swatch_5.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_6.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_6.value }}">
+                <img src="{{ swatch_6.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_7.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_7.value }}">
+                <img src="{{ swatch_7.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_8.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_8.value }}">
+                <img src="{{ swatch_8.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+            {{#if swatch_9.src '!==' 'https://placehold.it/90x90' }}
+            <a href="{{ url_9.value }}">
+                <img src="{{ swatch_9.src }}" alt="swatches" />
+            </a>
+            {{/if}}
+        </div>
+    </div>
+</div>
+<style>
+   #widget-{{_.id}}.image-with-content--with-swatch {
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        min-height: 400px;
+    }
+   #widget-{{_.id}}.image-with-content--with-swatch::before {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #0000002F;
+        content: '';
+        left: 0;
+        top: 0;
+    }
+   #widget-{{_.id}}.image-with-content--with-swatch .content--container {
+        position: absolute;
+        bottom: 70px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+   #widget-{{_.id}}.image-with-content--with-swatch .content--container .page-heading {
+        font-size: 28px;
+        color: #fff;
+    }
+   #widget-{{_.id}}.image-with-content--with-swatch .content--container p {
+        font-family: 'League Spartan', sans-serif;
+        font-size: 14px;
+        color: #fff;
+    }
+</style>
